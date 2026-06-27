@@ -239,8 +239,8 @@
 
     <section class="trend" aria-labelledby="trend-heading">
       <h2 id="trend-heading">今日趋势点评</h2>
-      <p>今天的核心信号是：<strong>前沿模型发布、企业 Agent 基础设施和内容真实性治理正在同时升温。</strong>OpenAI 的 GPT-5.6 有限预览把能力竞争推向更高风险的编码、生物和网络安全任务，也把政府前置沟通、分层访问和安全评测拉到产品发布流程中心。</p>
-      <p>NVIDIA 与 AWS、MLCommons 和科学计算软件的最新动态说明，AI 行业的竞争继续下沉到云实例、向量检索、训练基准和垂直工具链。与此同时，Superhuman 收购 GPTZero、RSL Media 推出 Human Consent Registry，显示商业化不只围绕“生成更多内容”，也开始围绕“证明来源、管理授权和降低合规风险”形成新产品层。</p>
+      <p>今天的核心信号是：<strong>前沿模型发布、企业 Agent 基础设施和内容真实性治理正在同时升温，国内市场也开始把 Agent 标准和模型平台化放到更靠前的位置。</strong>OpenAI 的 GPT-5.6 有限预览把能力竞争推向更高风险的编码、生物和网络安全任务，也把政府前置沟通、分层访问和安全评测拉到产品发布流程中心。</p>
+      <p>NVIDIA 与 AWS、MLCommons 的最新动态说明，AI 行业的竞争继续下沉到云实例、向量检索、训练基准和垂直工具链。国内方面，市场监管总局推动智能体互联标准化，火山引擎豆包大模型继续强调多模态、低价调用和高初始限流，说明中国 AI 竞争正在从单模型参数转向“可互联、可调用、可规模化落地”的平台能力。</p>
     </section>
 
     <section aria-labelledby="news-heading">
@@ -268,17 +268,24 @@
         </li>
 
         <li class="card">
+          <h3>市场监管总局召开智能体互联标准化发布会，推动 Agent 从单点应用走向互联规范 <span class="tag">国内治理</span></h3>
+          <p class="dek">市场监管总局披露，已批准发布《人工智能 智能体互联》系列国家标准化指导性技术文件，并在专题发布会上说明标准将围绕总体架构、身份管理、能力描述、发现与交互等环节发挥规范作用。</p>
+          <p class="source">关键信息来源：<a href="https://www.samr.gov.cn/xw/xwfbt/art/2026/art_fa730f984b2740baa248318118d77921.html" target="_blank" rel="noopener">市场监管总局新闻发布会实录</a>、<a href="https://www.samr.gov.cn/bzjss/tzgg/art/2026/art_bbf820423744486192f890d32ec07764.html" target="_blank" rel="noopener">国家标准委发布公告</a></p>
+          <p class="analysis"><strong>为什么重要：</strong>国内 Agent 产业正在从“各自做插件和工作流”进入互联互通阶段。身份、能力、发现和工具调用如果形成统一标准，将直接影响政务、制造、交通等场景中多 Agent 协同的采购规范，也会提高企业级 Agent 平台的合规门槛。</p>
+        </li>
+
+        <li class="card">
+          <h3>火山引擎豆包大模型强化多模态与低成本调用，国内模型平台竞争继续下沉到 API 层 <span class="tag">国内产品</span></h3>
+          <p class="dek">火山引擎豆包大模型官方页面展示其多模态模型矩阵，覆盖代码、视觉理解、视频生成、实时语音、声音复刻、同声传译、向量和音乐等能力，并强调 0.15 元起的百万输入 tokens 定价与 500 万 TPM 初始限流。</p>
+          <p class="source">关键信息来源：<a href="https://www.volcengine.com/product/yunque/" target="_blank" rel="noopener">火山引擎豆包大模型官方页面</a></p>
+          <p class="analysis"><strong>为什么重要：</strong>国内大模型竞争的关键不只是 benchmark 排名，而是能否把多模态能力、低调用成本和企业接入体验统一起来。豆包把模型、视频、语音、向量检索和 Agent 场景放在同一平台中呈现，说明中国厂商正在以 API 价格、限流、模态覆盖和落地工具链争夺开发者与企业客户。</p>
+        </li>
+
+        <li class="card">
           <h3>NVIDIA Agent Toolkit 强调“可控、可定制”的企业 Agent 栈 <span class="tag">Agent 平台</span></h3>
           <p class="dek">NVIDIA 介绍 Agent Toolkit，由 Nemotron 开放模型、NemoClaw 蓝图、OpenShell 运行时以及工具与技能组合构成，面向企业构建可定制、可控、可安全运行的专业 Agent。</p>
           <p class="source">关键信息来源：<a href="https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/" target="_blank" rel="noopener">NVIDIA 官方博客</a></p>
           <p class="analysis"><strong>为什么重要：</strong>Agent 的价值不再只是“会调用工具”，而在于模型、工具、权限、运行时和成本控制能否形成可治理系统。NVIDIA 的路线把 Agent 产品化为企业基础设施的一部分，对 ServiceNow、SAP、Palantir、Cadence 等工作流平台具有直接商业含义。</p>
-        </li>
-
-        <li class="card">
-          <h3>NVIDIA 发布 AI for Science 新软件，加速材料、化学与天文数据处理 <span class="tag">科学计算</span></h3>
-          <p class="dek">NVIDIA 在 ISC 周期间介绍 DAQIRI、ALCHEMI NIM 微服务和即将推出的 cuPhoton 参考代码，称其可把部分科学数据处理从 CPU 上的小时级或天级任务推进到 GPU 加速的实时管线。</p>
-          <p class="source">关键信息来源：<a href="https://blogs.nvidia.com/blog/ai-for-science-software-cuda/" target="_blank" rel="noopener">NVIDIA 官方博客</a></p>
-          <p class="analysis"><strong>为什么重要：</strong>AI for Science 的竞争点正在从单个模型论文走向“实验仪器、数据格式、GPU 库和推理服务”的端到端链路。若这些工具能进入天文观测、材料模拟和化学发现流程，AI 将更像科研生产系统，而不是外围辅助工具。</p>
         </li>
 
         <li class="card">
@@ -323,12 +330,20 @@
             <a class="src-url" href="https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance/" target="_blank" rel="noopener">https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance/</a>
           </li>
           <li>
-            <span class="src-title">NVIDIA, “How Businesses Are Building Specialized AI They Can Trust”.</span>
-            <a class="src-url" href="https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/" target="_blank" rel="noopener">https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/</a>
+            <span class="src-title">市场监管总局，“市场监管总局智能体互联标准化新闻发布会实录”。</span>
+            <a class="src-url" href="https://www.samr.gov.cn/xw/xwfbt/art/2026/art_fa730f984b2740baa248318118d77921.html" target="_blank" rel="noopener">https://www.samr.gov.cn/xw/xwfbt/art/2026/art_fa730f984b2740baa248318118d77921.html</a>
           </li>
           <li>
-            <span class="src-title">NVIDIA, “From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries”.</span>
-            <a class="src-url" href="https://blogs.nvidia.com/blog/ai-for-science-software-cuda/" target="_blank" rel="noopener">https://blogs.nvidia.com/blog/ai-for-science-software-cuda/</a>
+            <span class="src-title">国家市场监督管理总局、国家标准化管理委员会，“关于批准发布《人工智能 智能体互联 第1部分：总体架构》等8项国家标准化指导性技术文件的公告”。</span>
+            <a class="src-url" href="https://www.samr.gov.cn/bzjss/tzgg/art/2026/art_bbf820423744486192f890d32ec07764.html" target="_blank" rel="noopener">https://www.samr.gov.cn/bzjss/tzgg/art/2026/art_bbf820423744486192f890d32ec07764.html</a>
+          </li>
+          <li>
+            <span class="src-title">火山引擎，“豆包大模型”。</span>
+            <a class="src-url" href="https://www.volcengine.com/product/yunque/" target="_blank" rel="noopener">https://www.volcengine.com/product/yunque/</a>
+          </li>
+          <li>
+            <span class="src-title">NVIDIA, “How Businesses Are Building Specialized AI They Can Trust”.</span>
+            <a class="src-url" href="https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/" target="_blank" rel="noopener">https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/</a>
           </li>
           <li>
             <span class="src-title">Superhuman, “Superhuman to Acquire GPTZero, AI Authenticity Platform”.</span>
@@ -340,7 +355,7 @@
           </li>
         </ol>
       </div>
-      <p>更新时间：2026-06-27 21:15（北京时间）</p>
+      <p>更新时间：2026-06-27 21:20（北京时间）</p>
       <a class="back" href="./">返回首页</a>
     </footer>
   </main>
